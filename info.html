@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a class="active" href="#info">Info</a></li>
+            <li><a href="album.html">Albums</a></li>
+            <li><a href="awards.html">Awards</a></li>
+    </ul>
+</nav>
+
+<h1>Contribution Form</h1>
+    <form action="/form-handling-url" method="post">
+        <fieldset>
+            <legend>Add user</legend>
+
+            <div>
+                <label for ="firstname">First name</label>
+                <input type ="text" id="firsname" name="first_name">
+            </div>
+
+            <div>
+                <label for ="lastname">Last name</label>
+                <input type ="text" id="lastname" name="last_name">
+            </div>
+
+            <div>
+                <label for ="agreetoterms">Agree to terms</label>
+                <input type ="checkbox" id ="agreetoterms" name="agreetoterms">
+            </div>
+
+            <div>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+
+            <div>
+                <button type="sumbit">Submit</button>
+            </div>
+        </fieldset>
+</body>
+</html>
